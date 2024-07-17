@@ -6,6 +6,7 @@ import Component3 from "../components/Component3";
 import Component4 from "../components/Component4";
 import Component5 from "../components/Component5";
 import Component2 from "../components/Component2";
+import Component6 from "../components/Component6";
 
 const HomePage: React.FC = () => {
 
@@ -23,6 +24,9 @@ const HomePage: React.FC = () => {
               </Box>
               <Box>
                 <Component2/>
+              </Box>
+              <Box>
+                <Component6/>
               </Box>
             </Box>
 

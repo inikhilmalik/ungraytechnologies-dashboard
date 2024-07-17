@@ -11,6 +11,9 @@ const Sidebar = () => {
     return (
         <Box minW={"13%"} maxW={"13%"} height={"100vh"} borderRight={"3px solid lightgrey"} >
 
+            <Box p={2} mb={1} bg={"white"}>
+                
+            </Box>
             <Box p={2} bg={"white"}>
                 <Button mb={1} width={"100%"} >
                     <Text width={"100%"} textAlign={"start"} >Setting</Text>

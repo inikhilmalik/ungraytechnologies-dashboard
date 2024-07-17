@@ -11,7 +11,7 @@ const Component3 = () => {
         return <Spinner/>
     }
     return (
-        <Box p={2} border={"2px solid lightgrey"} borderRadius={"15px"} height={"300px"}>
+        <Box p={2} pt={5} pb={5} border={"2px solid lightgrey"} borderRadius={"15px"} >
             {/* <Flex justifyContent={"center"}pt={1} pb={1} > */}
             <Flex  alignItems={"center"} height={"180px"} >
                 <Box height={"180px"} width={"45%"}>
@@ -28,7 +28,7 @@ const Component3 = () => {
                 <Text fontSize={18} fontWeight={600} >{data?.title}?</Text>
                 <Text fontSize={16} color={"grey"} fontWeight={600} >{data?.message}</Text>
             </Box>
-            <Box mt={"10px"} p={1} pl={1} pr={1} width={"fit-content"} border={"1px solid grey"} borderRadius={"20px"}>
+            <Box mt={"10px"} p={1} pl={3} pr={3} width={"fit-content"} border={"1px solid grey"} borderRadius={"20px"}>
                 <Text fontSize={16} fontWeight={600} >Improve your score</Text>
             </Box>
         </Box>

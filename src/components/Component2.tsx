@@ -31,13 +31,13 @@ const Component2: React.FC<ComparisonBarGraphProps> = () => {
     datasets: [
       {
         label: 'This year',
-        data: [65, 59, 80, 81, 56, 55],
+        data: [28, 48, 40, 19, 86, 27],
         backgroundColor: 'rgba(75, 192, 192, 0.5)',
       },
       {
         label: 'Last year',
-        data: [28, 48, 40, 19, 86, 27],
-        backgroundColor: 'rgba(153, 102, 255, 0.5)',
+        data: [65, 59, 80, 81, 56, 55],
+        backgroundColor: 'rgb(11, 108, 224)',
       },
     ],
   };
