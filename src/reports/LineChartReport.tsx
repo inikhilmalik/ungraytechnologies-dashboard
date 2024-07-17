@@ -19,7 +19,7 @@ const LineChart: React.FC = ({ }) => {
                 backgroundColor: 'rgb(11, 108, 224)',
             },
             {
-                label: 'offline salling',
+                label: 'offline selling',
                 data: data2,
                 borderColor: 'rgba(75, 192, 192, 0.5)',
                 backgroundColor: 'rgba(75, 192, 192, 0.5)',
